@@ -15,55 +15,17 @@
   --title-color: #ffc2e6;
   --font-family: "IBM Plex mono", monospace;
   --page-bg-image: url("../images/cover-image-light.png");
+  --corner-color: #353430;
+  --title-decor-color: #353430;
+  --button-color: #353430;
+  --button-hover-color: rgba(50, 49, 45, 0.4);
+  --section-title-color: #353430;
 
   .header__rec::before {
     display: none;
   }
   .header__rec::after {
     display: none;
-  }
-
-  .title-decor {
-    color: var(--main-text-color);
-    background-color: var(--accent-color);
-  }
-  .section__title {
-    color: var(--main-text-color);
-  }
-  .header::before {
-    border-top: 1px solid var(--main-text-color);
-    border-right: 1px solid var(--main-text-color);
-  }
-
-  .header::after {
-    border-bottom: 1px solid var(--main-text-color);
-    border-left: 1px solid var(--main-text-color);
-  }
-
-  .footer::before {
-    border-top: 1px solid var(--main-text-color);
-    border-right: 1px solid var(--main-text-color);
-  }
-
-  .footer::after {
-    border-bottom: 1px solid var(--main-text-color);
-    border-left: 1px solid var(--main-text-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--main-text-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--main-text-color);
-  }
-
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border: 1px solid var(--accent-color);
   }
 }
 
@@ -76,6 +38,11 @@
     --title-color: #ffc2e6;
     --font-family: "IBM Plex mono", monospace;
     --page-bg-image: url("../images/cover-image-light.png");
+    --corner-color: #353430;
+    --title-decor-color: #353430;
+    --button-color: #353430;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --section-title-color: #353430;
   }
 
   .header__rec::before {
@@ -83,48 +50,5 @@
   }
   .header__rec::after {
     display: none;
-  }
-
-  .title-decor {
-    color: var(--main-text-color);
-    background-color: var(--accent-color);
-  }
-  .section__title {
-    color: var(--main-text-color);
-  }
-  .header::before {
-    border-top: 1px solid var(--main-text-color);
-    border-right: 1px solid var(--main-text-color);
-  }
-
-  .header::after {
-    border-bottom: 1px solid var(--main-text-color);
-    border-left: 1px solid var(--main-text-color);
-  }
-
-  .footer::before {
-    border-top: 1px solid var(--main-text-color);
-    border-right: 1px solid var(--main-text-color);
-  }
-
-  .footer::after {
-    border-bottom: 1px solid var(--main-text-color);
-    border-left: 1px solid var(--main-text-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--main-text-color);
-  }
-
-  .header__theme-menu-button:hover {
-    border: 1px solid rgba(50, 49, 45, 0.4);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border: 1px solid var(--accent-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--main-text-color);
   }
 }
